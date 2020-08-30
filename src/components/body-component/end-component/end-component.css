@@ -1,0 +1,24 @@
+.end__component{
+    background-color: #303030;
+    text-align: center;
+    border-radius: 5px;
+    padding: 3rem 2rem;
+    border: 1px solid #444
+}
+.end__component_text{
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+}
+.end__component_button{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #00bc8c;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    cursor: pointer;
+}

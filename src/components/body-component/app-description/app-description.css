@@ -1,0 +1,25 @@
+
+@media only screen and (max-width: 1100px) {
+    .description__container_felxPart{
+        display: block !important;
+    }
+    .description__container_felxPart > .image_example{
+        margin-left: calc((100% - 200px)/2);
+        margin-bottom: 0;
+    }
+    .description__container_about{
+        width: 90%!important;
+        margin-left: 5%;
+    }
+    .description__container_about{
+        width: 90% !important;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .descriptio__preview{
+        margin-top: 0%!important;
+    }
+} 
+ 

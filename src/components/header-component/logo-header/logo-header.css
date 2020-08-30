@@ -1,0 +1,31 @@
+@font-face { 
+    font-family: 'Dancing Script'; 
+    src: url('../../../fonts/DancingScript-VariableFont_wght.ttf')  format('truetype');  
+    font-weight: normal; 
+    font-style: normal;
+  }
+
+.logo_color{
+   color: seagreen;
+}
+.logo__container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo_text{
+    font-family: Dancing Script;
+    font-size: 70px;
+    font-weight: 400;
+}
+.logo_counter{
+    height: 70px;
+    line-height: 70px;
+    font-size: 25px;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 400px) {
+    .logo__container{
+        display: block;
+        text-align: center;
+    }
+}

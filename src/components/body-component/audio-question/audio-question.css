@@ -1,0 +1,20 @@
+.volume_icon_container{
+  width: 20px;
+    height: 140px;
+    position: relative;
+    bottom: 95px;
+    left: 8px;
+}
+.audio_volume_icon{
+  width: 35px;
+  height: 35px;
+  position: relative;
+  top: 100px;
+  left: -5px;
+  background-image: url(../../../merged2.png);
+  background-size: 35px;
+  background-position: bottom;
+}
+.muted{
+  background-position: top!important;
+}
