@@ -1,0 +1,29 @@
+.answer__container{
+    margin-top: 20px;
+    width: 40%;
+}
+.point{
+    margin-top: 7px;
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.grey{
+    background-color: grey;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+
+
+.list-group-item{
+    display: flex!important;
+}
+
+.list-group {
+    width: 48%;
+}

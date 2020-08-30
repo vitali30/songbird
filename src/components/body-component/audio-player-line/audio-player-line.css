@@ -1,0 +1,49 @@
+.audio__container_paly {
+    width: 50px;
+    height: 50px;
+    background-image: url(../../../merged.png);
+    background-size: 50px;
+    background-position: top;
+    margin-right: 3%;
+  }
+.description__container_about > .audio__container > .audio__container_paly {
+  width: 35px;
+  height: 35px;
+  background-image: url(../../../merged.png);
+  background-size: 35px;
+  background-position: top;
+  margin-right: 3%;
+  margin-top: 6px;
+}
+
+
+
+.paused{
+    background-position: bottom!important;
+  }
+  .audio__container_line{
+    height: 10px;
+    background-color: rgb(192, 231, 216);
+  }
+  .audio_percentage{
+    width: 0%;
+    height: 10px;
+    background-color: rgb(48, 180, 130);
+  }
+  .audio__timer{
+    display: flex;
+    justify-content: space-between;
+  }
+  .audio__container{
+    display: flex;
+    position: relative;
+    height: 50px;
+  }
+  .audio__container_progress{
+    width: 85%;
+    margin-top: 17px;
+    height: 50px;
+  }
+  .description__container_felxPart .audio__container{
+    width: 95%;
+  }

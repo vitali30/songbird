@@ -1,0 +1,32 @@
+.description__container{
+    background-color: #303030;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #888;
+    width: 50%;
+}
+.description__container_felxPart{
+    display: flex;
+}
+
+.description__container_about{
+    width: 45%;
+    height: 150px;
+}
+.description{
+    padding: 0 10px;
+    text-align: justify;
+}
+.description__line{
+    background-color: #00bc8c;
+    width: 90%;
+    float: left;
+    margin: 5px 0;
+}
+.nameBird{
+    margin-top: 20px;
+}
+.descriptio__preview{
+    text-align: center;
+    margin-top: 15%;
+}

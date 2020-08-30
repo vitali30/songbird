@@ -1,0 +1,18 @@
+.volume__container_line{
+    position: absolute;
+    right: 8px;
+    bottom: 40px;
+}
+.audio_volume_line{
+  width: 5px;
+  height: 100px;
+  background-color: aliceblue;
+  margin: auto;
+}
+.audio_volume_progress{
+  width: 5px;
+  height: 75px;
+  background-color: rgb(48, 180, 130);
+  position: absolute;
+  bottom: 0px;
+}

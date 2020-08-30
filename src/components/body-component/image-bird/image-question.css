@@ -1,0 +1,7 @@
+.image_example{
+    width: 200px;
+    height: 155px;
+    border-radius: 5px;
+    margin: 2vw;
+    object-fit: cover;
+}

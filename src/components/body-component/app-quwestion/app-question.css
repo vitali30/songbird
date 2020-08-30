@@ -1,0 +1,28 @@
+.question{
+    border-radius: 5px;
+    background-color: #303030;
+    margin-top: 30px;
+    display: flex;
+    border: 1px solid #888;
+}
+.question_secondary{
+    width: calc(100% - 200px - 8vw);
+    height: 150px;
+}
+
+@media only screen and (max-width: 550px) {
+    .question{
+        display: block;
+    }
+    .question > .image_example{
+        margin: 25px 0 0 calc((100% - 200px) / 2);
+    }
+    .question_secondary{
+        width: 88%;
+        margin: 25px 6% 0 6%;
+    }
+    .question_secondary > h2{
+        text-align: center;
+    }
+}
+
